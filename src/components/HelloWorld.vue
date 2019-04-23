@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button @click="click">Click</button>
   </div>
 </template>
 
@@ -10,11 +9,6 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  methods: {
-    click: function() {
-      alert();
-    }
   }
 }
 </script>
